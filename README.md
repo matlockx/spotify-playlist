@@ -1,6 +1,6 @@
 # spotify-playlist
 
-Creates a new playlist for your 'Discover Weekly' playlist from spotify with the new name 'DiscoverWeekly_KW[CalendarWeek], e.g. 'DiscoverWeekly_KW43'.
+Creates a new playlist for your 'Discover Weekly' playlist from spotify with the new name 'DiscoverWeekly_KW[CalendarWeek], e.g. 'DiscoverWeekly_KW43'. When you run it for the first time and you open the 
 
 ###How to run
 
@@ -16,6 +16,8 @@ Creates a new playlist for your 'Discover Weekly' playlist from spotify with the
 ```
 docker run -d -e "USER=[YOUR_SPOTIFY_USER_NAME]" -e "CLIENT_ID=[YOUR_CLIENT_ID]" -e "CLIENT_SECRET=[YOUR_CLIENT_SECRET]" -p 8080:8080 matlockx/spotify-playlist
 ```
+
+Open your browser at http://localhost:8080/create-playlist or http://[boot2docker_ip]:8080/create-playlist
 
 #### Direct
 
