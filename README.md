@@ -1,6 +1,13 @@
 # spotify-playlist
 
-Creates a new playlist for your 'Discover Weekly' playlist from spotify with the new name 'DiscoverWeekly_KW[CalendarWeek], e.g. 'DiscoverWeekly_KW43'. When you run it for the first time and you open the 
+Creates a new playlist for your 'Discover Weekly' playlist from spotify with the new name 'DiscoverWeekly_KW[CalendarWeek], e.g. 'DiscoverWeekly_KW43'. When you run it for the first time and you open the browser you need to login to spotify with your username and password and you need to allow the requested grants. Currently these are requested:
+
+* playlist-read-private 
+* playlist-read-collaborative 
+* playlist-modify-public 
+* playlist-modify-private
+
+do not know whether you need all of them (I'm too lazy to look it up) but you need at least the private permissions otherwise the playlist cannot be created.
 
 ###How to run
 
