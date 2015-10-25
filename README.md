@@ -19,7 +19,7 @@ You must run it every week otherwise you will not get the newest playlists any m
 docker run -d -e "USER=[YOUR_SPOTIFY_USER_NAME]" -e "CLIENT_ID=[YOUR_CLIENT_ID]" -e "CLIENT_SECRET=[YOUR_CLIENT_SECRET]" -p 8080:8080 matlockx/spotify-playlist
 ```
 
-Open your browser at http://localhost:8080/create-playlist or http://[boot2docker_ip]:8080/create-playlist
+Open your browser at [http://localhost:8080/create-playlist](http://localhost:8080/create-playlist) or [http://[boot2docker_ip]:8080/create-playlist](http://[boot2docker_ip]:8080/create-playlist)
 
 
 When you run it for the first time and you open the browser you need to login to spotify with your username and password and you need to allow the requested grants. Currently these are requested:
