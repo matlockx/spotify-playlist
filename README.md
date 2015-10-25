@@ -1,6 +1,6 @@
 # spotify-playlist
 
-Creates a new playlist for your 'Discover Weekly' playlist from spotify with the name 'DiscoverWeekly_KW[CalendarWeek].
+Creates a new playlist for your 'Discover Weekly' playlist from spotify with the new name 'DiscoverWeekly_KW[CalendarWeek].
 
 ###How to run
 
