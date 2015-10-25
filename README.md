@@ -15,6 +15,8 @@ You must run it every week otherwise you will not get the newest playlists any m
 
 #### 2. Docker
 
+Docker Image: https://hub.docker.com/r/matlockx/spotify-playlist/
+
 ```
 docker run -d -e "USER=[YOUR_SPOTIFY_USER_NAME]" -e "CLIENT_ID=[YOUR_CLIENT_ID]" -e "CLIENT_SECRET=[YOUR_CLIENT_SECRET]" -p 8080:8080 matlockx/spotify-playlist
 ```
