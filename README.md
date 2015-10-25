@@ -8,6 +8,7 @@ Creates a new playlist for your 'Discover Weekly' playlist from spotify with the
 * playlist-modify-private
 
 do not know whether you need all of them (I'm too lazy to look it up) but you need at least the private permissions otherwise the playlist cannot be created.
+Of course you must run it every week otherwise you will not get the newest playlists any more. 
 
 ###How to run
 
