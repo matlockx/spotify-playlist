@@ -14,7 +14,7 @@ USER = os.environ.get("USER")
 
 #print("Trying to create a new weekly playlist for user {} CLIENT_ID {} and CLIENT_SECRET".format(USER, CLIENT_ID, CLIENT_SECRET))
 
-WEEKLY_PLAYLIST_NAME = "DiscoverWeekly_KW{}".format(datetime.date.today().isocalendar()[1])
+WEEKLY_PLAYLIST_NAME = "DiscoverWeekly_{}".format("_".join(str(v) for v in datetime.date.today().isocalendar()[:2]))
 
 USER_GRANTS = "playlist-read-private playlist-read-collaborative playlist-modify-public playlist-modify-private"
 
