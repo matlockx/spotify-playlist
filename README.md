@@ -1,7 +1,7 @@
 spotify-playlist
 ================
 
-Creates a new playlist for your 'Discover Weekly' playlist from spotify with the new name 'DiscoverWeekly*[CurrentYear]*[CurrentCalendarWeek], e.g. 'DiscoverWeekly_2015_43'.
+Creates a new playlist for your 'Discover Weekly' playlist from spotify with the new name 'DiscoverWeekly_[CurrentYear]_[CurrentCalendarWeek], e.g. 'DiscoverWeekly_2015_43'.
 
 You must run it every week otherwise you will not get the newest playlists any more (create a cron job, run it manually, change the code to run with a scheduler, etc.)
 
